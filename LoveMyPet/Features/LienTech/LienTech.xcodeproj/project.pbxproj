@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		643223DD2A78853900099C6B /* LienTechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643223DC2A78853900099C6B /* LienTechApp.swift */; };
+		643223DF2A78853900099C6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643223DE2A78853900099C6B /* ContentView.swift */; };
+		643223E12A78853900099C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643223E02A78853900099C6B /* Assets.xcassets */; };
+		643223E42A78853900099C6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643223E32A78853900099C6B /* Preview Assets.xcassets */; };
+		643223EE2A78853A00099C6B /* LienTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643223ED2A78853A00099C6B /* LienTechTests.swift */; };
+		643223F82A78853A00099C6B /* LienTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643223F72A78853A00099C6B /* LienTechUITests.swift */; };
+		643223FA2A78853A00099C6B /* LienTechUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643223F92A78853A00099C6B /* LienTechUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		643223EA2A78853A00099C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 643223D12A78853900099C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 643223D82A78853900099C6B;
+			remoteInfo = LienTech;
+		};
+		643223F42A78853A00099C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 643223D12A78853900099C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 643223D82A78853900099C6B;
+			remoteInfo = LienTech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		643223D92A78853900099C6B /* LienTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LienTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		643223DC2A78853900099C6B /* LienTechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LienTechApp.swift; sourceTree = "<group>"; };
+		643223DE2A78853900099C6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		643223E02A78853900099C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		643223E32A78853900099C6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		643223E92A78853A00099C6B /* LienTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LienTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		643223ED2A78853A00099C6B /* LienTechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LienTechTests.swift; sourceTree = "<group>"; };
+		643223F32A78853A00099C6B /* LienTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LienTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		643223F72A78853A00099C6B /* LienTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LienTechUITests.swift; sourceTree = "<group>"; };
+		643223F92A78853A00099C6B /* LienTechUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LienTechUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		643223D62A78853900099C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643223E62A78853A00099C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643223F02A78853A00099C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		643223D02A78853900099C6B = {
+			isa = PBXGroup;
+			children = (
+				643223DB2A78853900099C6B /* LienTech */,
+				643223EC2A78853A00099C6B /* LienTechTests */,
+				643223F62A78853A00099C6B /* LienTechUITests */,
+				643223DA2A78853900099C6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		643223DA2A78853900099C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				643223D92A78853900099C6B /* LienTech.app */,
+				643223E92A78853A00099C6B /* LienTechTests.xctest */,
+				643223F32A78853A00099C6B /* LienTechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		643223DB2A78853900099C6B /* LienTech */ = {
+			isa = PBXGroup;
+			children = (
+				643224062A78854000099C6B /* Shared */,
+				643223DC2A78853900099C6B /* LienTechApp.swift */,
+				643223DE2A78853900099C6B /* ContentView.swift */,
+				643223E02A78853900099C6B /* Assets.xcassets */,
+				643223E22A78853900099C6B /* Preview Content */,
+			);
+			path = LienTech;
+			sourceTree = "<group>";
+		};
+		643223E22A78853900099C6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				643223E32A78853900099C6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		643223EC2A78853A00099C6B /* LienTechTests */ = {
+			isa = PBXGroup;
+			children = (
+				643223ED2A78853A00099C6B /* LienTechTests.swift */,
+			);
+			path = LienTechTests;
+			sourceTree = "<group>";
+		};
+		643223F62A78853A00099C6B /* LienTechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				643223F72A78853A00099C6B /* LienTechUITests.swift */,
+				643223F92A78853A00099C6B /* LienTechUITestsLaunchTests.swift */,
+			);
+			path = LienTechUITests;
+			sourceTree = "<group>";
+		};
+		643224062A78854000099C6B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				643224082A78856F00099C6B /* App */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		643224082A78856F00099C6B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				643224092A78857D00099C6B /* Services */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		643224092A78857D00099C6B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6432240A2A78859900099C6B /* Utils */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6432240A2A78859900099C6B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6432240B2A7885AA00099C6B /* Protocols */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6432240B2A7885AA00099C6B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6432240C2A7885C700099C6B /* Conponentes */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6432240C2A7885C700099C6B /* Conponentes */ = {
+			isa = PBXGroup;
+			children = (
+				6432240D2A7885E800099C6B /* Extensions */,
+			);
+			path = Conponentes;
+			sourceTree = "<group>";
+		};
+		6432240D2A7885E800099C6B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6432240F2A78862400099C6B /* Manager */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6432240F2A78862400099C6B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				643224102A78864600099C6B /* Modifiers */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		643224102A78864600099C6B /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				643224112A78865C00099C6B /* Styles */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		643224112A78865C00099C6B /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		643223D82A78853900099C6B /* LienTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643223FD2A78853A00099C6B /* Build configuration list for PBXNativeTarget "LienTech" */;
+			buildPhases = (
+				643223D52A78853900099C6B /* Sources */,
+				643223D62A78853900099C6B /* Frameworks */,
+				643223D72A78853900099C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LienTech;
+			productName = LienTech;
+			productReference = 643223D92A78853900099C6B /* LienTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		643223E82A78853A00099C6B /* LienTechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643224002A78853A00099C6B /* Build configuration list for PBXNativeTarget "LienTechTests" */;
+			buildPhases = (
+				643223E52A78853A00099C6B /* Sources */,
+				643223E62A78853A00099C6B /* Frameworks */,
+				643223E72A78853A00099C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				643223EB2A78853A00099C6B /* PBXTargetDependency */,
+			);
+			name = LienTechTests;
+			productName = LienTechTests;
+			productReference = 643223E92A78853A00099C6B /* LienTechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		643223F22A78853A00099C6B /* LienTechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643224032A78853A00099C6B /* Build configuration list for PBXNativeTarget "LienTechUITests" */;
+			buildPhases = (
+				643223EF2A78853A00099C6B /* Sources */,
+				643223F02A78853A00099C6B /* Frameworks */,
+				643223F12A78853A00099C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				643223F52A78853A00099C6B /* PBXTargetDependency */,
+			);
+			name = LienTechUITests;
+			productName = LienTechUITests;
+			productReference = 643223F32A78853A00099C6B /* LienTechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		643223D12A78853900099C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					643223D82A78853900099C6B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					643223E82A78853A00099C6B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 643223D82A78853900099C6B;
+					};
+					643223F22A78853A00099C6B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 643223D82A78853900099C6B;
+					};
+				};
+			};
+			buildConfigurationList = 643223D42A78853900099C6B /* Build configuration list for PBXProject "LienTech" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 643223D02A78853900099C6B;
+			productRefGroup = 643223DA2A78853900099C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				643223D82A78853900099C6B /* LienTech */,
+				643223E82A78853A00099C6B /* LienTechTests */,
+				643223F22A78853A00099C6B /* LienTechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		643223D72A78853900099C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643223E42A78853900099C6B /* Preview Assets.xcassets in Resources */,
+				643223E12A78853900099C6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643223E72A78853A00099C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643223F12A78853A00099C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		643223D52A78853900099C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643223DF2A78853900099C6B /* ContentView.swift in Sources */,
+				643223DD2A78853900099C6B /* LienTechApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643223E52A78853A00099C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643223EE2A78853A00099C6B /* LienTechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643223EF2A78853A00099C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643223FA2A78853A00099C6B /* LienTechUITestsLaunchTests.swift in Sources */,
+				643223F82A78853A00099C6B /* LienTechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		643223EB2A78853A00099C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 643223D82A78853900099C6B /* LienTech */;
+			targetProxy = 643223EA2A78853A00099C6B /* PBXContainerItemProxy */;
+		};
+		643223F52A78853A00099C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 643223D82A78853900099C6B /* LienTech */;
+			targetProxy = 643223F42A78853A00099C6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		643223FB2A78853A00099C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		643223FC2A78853A00099C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		643223FE2A78853A00099C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LienTech/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = residencia.LienTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		643223FF2A78853A00099C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LienTech/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = residencia.LienTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		643224012A78853A00099C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = residencia.LienTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LienTech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LienTech";
+			};
+			name = Debug;
+		};
+		643224022A78853A00099C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = residencia.LienTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LienTech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LienTech";
+			};
+			name = Release;
+		};
+		643224042A78853A00099C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = residencia.LienTechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LienTech;
+			};
+			name = Debug;
+		};
+		643224052A78853A00099C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = residencia.LienTechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LienTech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		643223D42A78853900099C6B /* Build configuration list for PBXProject "LienTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643223FB2A78853A00099C6B /* Debug */,
+				643223FC2A78853A00099C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643223FD2A78853A00099C6B /* Build configuration list for PBXNativeTarget "LienTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643223FE2A78853A00099C6B /* Debug */,
+				643223FF2A78853A00099C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643224002A78853A00099C6B /* Build configuration list for PBXNativeTarget "LienTechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643224012A78853A00099C6B /* Debug */,
+				643224022A78853A00099C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643224032A78853A00099C6B /* Build configuration list for PBXNativeTarget "LienTechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643224042A78853A00099C6B /* Debug */,
+				643224052A78853A00099C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 643223D12A78853900099C6B /* Project object */;
+}
